@@ -8,10 +8,20 @@ public_folder: "/notes"
 collections:
   - name: "materials"
     label: "Study Materials"
-    folder: "materials"
-    create: true
 
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
+    files:
+      - label: "Materials Data"
+        name: "materials_data"
+        file: "materials.json"
 
-      - { label: "PDF", name: "pdf", widget: "file" }
+        fields:
+          - label: "Materials"
+            name: "materials"
+            widget: "list"
+
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+
+              - { label: "Description", name: "description", widget: "text" }
+
+              - { label: "PDF", name: "pdf", widget: "file" }
