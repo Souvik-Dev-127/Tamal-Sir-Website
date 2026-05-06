@@ -1,3 +1,9 @@
 {
-  "materials": []
+  "materials": [
+    {
+      "title": "Test",
+      "pdf": "/notes/class-9-math-algebra.pdf",
+      "description": "This IS a test File\n"
+    }
+  ]
 }
