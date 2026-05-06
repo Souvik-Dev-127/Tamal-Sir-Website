@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "materials"
-public_folder: "/materials"
+media_folder: "notes"
+public_folder: "/notes"
 
 collections:
   - name: "materials"
