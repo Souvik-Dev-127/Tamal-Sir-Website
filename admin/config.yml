@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "materials"
+public_folder: "/materials"
+
+collections:
+  - name: "materials"
+    label: "Study Materials"
+    folder: "materials"
+    create: true
+
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+
+      - { label: "PDF", name: "pdf", widget: "file" }

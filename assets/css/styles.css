@@ -1,0 +1,131 @@
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 100;
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.5rem;
+  background: #1e3a8a;
+  color: #fff;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  line-height: 2.2rem;
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+.nav-link,
+.mobile-nav-link {
+  color: #334155;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.mobile-nav-link:hover,
+.link-text:hover {
+  color: #1e3a8a;
+}
+
+.nav-link.active-nav,
+.mobile-nav-link.active-nav {
+  color: #1e3a8a;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-accent,
+.btn-outline-light {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.6rem;
+  padding: 0.7rem 1.3rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: #1e3a8a;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #1b3276;
+}
+
+.btn-secondary {
+  border: 1px solid #1e3a8a;
+  color: #1e3a8a;
+  background: #fff;
+}
+
+.btn-secondary:hover {
+  background: #eff6ff;
+}
+
+.btn-accent {
+  background: #f59e0b;
+  color: #111827;
+}
+
+.btn-accent:hover {
+  background: #db8d0a;
+}
+
+.btn-outline-light {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn-outline-light:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.feature-card,
+.info-card,
+.notes-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.9rem;
+  background: #fff;
+  padding: 1.3rem;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+}
+
+.card-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+.card-text,
+.link-text {
+  color: #475569;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .section-title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
