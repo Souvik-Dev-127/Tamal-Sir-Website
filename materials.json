@@ -4,6 +4,11 @@
       "title": "Test",
       "pdf": "/notes/class-9-math-algebra.pdf",
       "description": "This IS a test File\n"
+    },
+    {
+      "pdf": "/notes/jlpt_n5_n4_vocabulary.pdf",
+      "title": "Test 2",
+      "description": "Test for upload\n"
     }
   ]
 }
